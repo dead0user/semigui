@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<LinearLayout orientation="vertical" width="80" height="30">
+	<Label name="label1" text="Label1 text" width="100%" />
+	<CheckBox name="checkBox1" text="Check me" />
+	<RadioButton name="radioButton1" text="Pick me" selected="true" width="50" backColor="black" />
+	<RadioButton name="radioButton2" text="No, pick me!" width="50" backColor="black" />
+	<EditBox name="editBox1" text="edit me!" />
+	
+	<LinearLayout orientation="horizontal" width="100%" height="3" spacing="1">
+		<Label name="menuElement1" text="Option 1" />
+		<Label name="menuElement2" text="Option 2" />
+		<Label name="menuElement3" text="Option 3" />
+	</LinearLayout>
+</LinearLayout>
